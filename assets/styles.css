@@ -1,0 +1,56 @@
+
+
+/* Container for visualization */
+.visual_container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation styles */
+.navigation {
+  width: 100%;
+}
+
+/* Inputs styles */
+.inputs, .inputs_1, .inputs_2 {
+  width: 20%; /* Adjust width as needed */
+}
+
+/* Content wrapper */
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* Content column 1 */
+.content_1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+  min-height: 100vh; /* Ensure the column occupies full viewport height */
+  background-color: #1679AB;
+  color: black;
+}
+
+/* Content column 2 */
+.content_2 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 60%; /* Adjust width as needed */
+  /* min-height: 100vh;  */
+}
+
+/* Description, main content, and graphs content */
+.description, .main-content, .graphs-content {
+  width: 100%; /* Adjust width as needed */
+  max-width: 50%; 
+}
+
+/* Fix content_1 */
+.content_1 {
+  flex-shrink: 0; /* Prevent content_1 from shrinking */
+  flex-grow: 0; /* Prevent content_1 from growing */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
+}
