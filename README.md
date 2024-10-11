@@ -21,4 +21,4 @@ Setup Instructions
 
   Clone this repository.
   Install the required dependencies with pip install -r requirements.txt.
-  Run the app with python ubdex.py and open it in your browser at http://127.0.0.1:8050/.
+  Run the app with python index.py and open it in your browser at http://127.0.0.1:8050/.
