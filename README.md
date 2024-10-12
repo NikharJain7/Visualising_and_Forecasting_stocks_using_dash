@@ -22,3 +22,10 @@ Setup Instructions
   Clone this repository.
   Install the required dependencies with pip install -r requirements.txt.
   Run the app with python index.py and open it in your browser at http://127.0.0.1:8050/.
+
+Example Stock Symbols to search 
+  AAPL – Apple Inc.
+  GOOGL – Alphabet Inc. (Google)
+  MSFT – Microsoft Corporation
+  AMZN – Amazon.com Inc.
+  TSLA – Tesla, Inc.
